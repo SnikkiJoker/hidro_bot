@@ -4,7 +4,7 @@ const bot = new discord.Client();
 
 bot.on('ready', () =>{
     console.log('this bot is online');
-    bot.user.setGame("type !h");      
+    client.user.setGame("type !h");      
     
 });
 
