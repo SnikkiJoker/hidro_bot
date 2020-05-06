@@ -4,7 +4,7 @@ const bot = new discord.client();
 const PREFIX = " ' ";
 
 bot.on('ready', () =>{
-    Console.log('this bot is online');
+    console.log('this bot is online');
 })
 bot.on('message', msg=>{
     if(msg.content == "HELLO"){
