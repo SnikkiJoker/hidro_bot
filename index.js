@@ -7,7 +7,7 @@ bot.on('ready', () =>{
 })
 var bruh = 150 
 var f_moment= 33
-const PREFIX = '!';
+const PREFIX = '!h';
 
 
 bot.on('message', message=>{
@@ -22,7 +22,7 @@ bot.on('message', message=>{
    let args = message.content.substring(PREFIX.length).split(" ");
    switch (args[0]) {
    // bruh counter 
-   case "!hbruh": 
+   case "bruh": 
        var bruh_send =("this is a bruh moment nº  " +bruh);
        message.reply(bruh_send);
        bruh = bruh +1
