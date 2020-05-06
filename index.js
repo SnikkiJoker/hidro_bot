@@ -1,10 +1,10 @@
 const discord = require('discord.js');
-const bot = new discord.Client();
+var bot = new discord.Client();
 
 
 bot.on('ready', () =>{
     console.log('this bot is online');
-    client.user.setGame("type !h");      
+    bot.user.setGame("type !h");      
     
 });
 
