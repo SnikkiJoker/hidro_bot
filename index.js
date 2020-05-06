@@ -13,14 +13,14 @@ const PREFIX = '!h';
 bot.on('message', message=>{
     // let args- responds to !halo uses cases to determine get "alo"
    let args = message.content.substring(PREFIX.length).split(" ");
-   switch (args[1]) {
+   switch (args[bf_horny_jail]) {
 
    case "info":
     message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best :bf_horny_jail: ")
             break;
 
-   case "f":
-
+   case "help":
+        message.reply("!h info gives you info . For now it also as a brun/bruh moment counter and a ""f""""counter" )
            break;
 
    }
