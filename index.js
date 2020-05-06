@@ -22,7 +22,7 @@ bot.on('message', message=>{
    let args = message.content.substring(PREFIX.length).split(" ");
    switch (args[0]) {
    // bruh counter 
-   case "bruh": 
+   case "!hbruh": 
        var bruh_send =("this is a bruh moment nº  " +bruh);
        message.reply(bruh_send);
        bruh = bruh +1
