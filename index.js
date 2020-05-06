@@ -4,8 +4,17 @@ const bot = new discord.Client();
 
 bot.on('ready', () =>{
     console.log('this bot is online');
+        
+    bot.user.setStatus('available')
+     bot.user.setPresence({
+            game: {
+                name: 'with depression',
+                type: "STREAMING",
+                url: "https://www.twitch.tv/monstercat"
+                }
 })
-var bruh = 150 
+
+var bruh = 165 
 var f_moment= 33
 const PREFIX = '!h';
 
@@ -20,7 +29,7 @@ bot.on('message', message=>{
             break;
 
    case "help":
-        message.reply("!h info gives you info . For now it also as a brun/bruh moment counter and a  f counter" )
+        message.reply("!h info gives you info about the bot. For now it also as a brun/bruh moment counter and a  f counter" )
            break;
 
    }
