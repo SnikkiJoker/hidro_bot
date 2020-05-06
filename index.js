@@ -15,8 +15,8 @@ bot.on('message', message=>{
    let args = message.content.substring(PREFIX.length).split(" ");
    switch (args[0]) {
 
-   case "":
-
+   case "info":
+    message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best :bf_horny_tail: ")
             break;
 
    case "f":
@@ -26,7 +26,7 @@ bot.on('message', message=>{
    }
     //sees "hello there" replies "general kenobi, you are a bold one" 
     if(message.content ===  "hello there"){
-        client.channels.get("bot-spam").send("general kenobi, you are a bold one");
+        client.channels.get("#bot-spam").send("general kenobi, you are a bold one");
         // message.reply('general kenobi, you are a bold one');
    }
 
