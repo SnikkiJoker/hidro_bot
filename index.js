@@ -4,17 +4,15 @@ const bot = new discord.Client();
 
 bot.on('ready', () =>{
     console.log('this bot is online');
-        
     bot.user.setStatus('available')
-    //  bot.user.setPresence({
-    //         game: {
-    //             name: 'with depression',
-    //             type: "STREAMING",
-    //             url: "https://www.twitch.tv/monstercat"
-    //         }
-    //             )}
-})
-
+    bot.user.setPresence({
+        game: {
+            name: 'with depression',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/monstercat"
+        }
+    });
+});
 var bruh = 165 
 var f_moment= 33
 const PREFIX = '!h';
