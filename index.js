@@ -1,5 +1,5 @@
 const discord = require('discord.js');
-const bot = new discord.client();
+const bot = new discord.Client();
 
 const PREFIX = " ' ";
 
