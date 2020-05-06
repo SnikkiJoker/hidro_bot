@@ -8,8 +8,8 @@ bot.on('ready', () =>{
     
 });
 
-var bruh = 165 
-var f_moment= 33
+var bruh = 166 
+var f_moment= 37
 const PREFIX = '!h';
 
 
