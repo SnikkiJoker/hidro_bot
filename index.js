@@ -30,7 +30,7 @@ bot.on('message', message=>{
 
    case "f":
        // F counter
-       var F_send =("f to pay respeccts(nº "+bruh+")" );
+       var F_send =("f to pay respeccts(nº "+f_momenth+")" );
            message.reply(F_send);
            f_moment = f_moment +1
            break;
