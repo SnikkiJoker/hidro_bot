@@ -19,7 +19,8 @@ bot.on('message', message=>{
 
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
-   switch(agruments[0]){
+   let args = message.content.substring(PREFIX.length).split(" ");
+   switch(ags[0]){
    // bruh counter 
    case "bruh": 
        var bruh_send =("this is a bruh moment nº  " +bruh);
