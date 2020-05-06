@@ -20,7 +20,7 @@ bot.on('message', message=>{
             break;
 
    case "help":
-        message.reply("!h info gives you info . For now it also as a brun/bruh moment counter and a ""f""""counter" )
+        message.reply("!h info gives you info . For now it also as a brun/bruh moment counter and a  f counter" )
            break;
 
    }
