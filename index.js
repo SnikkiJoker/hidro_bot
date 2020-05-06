@@ -8,7 +8,7 @@ bot.on('ready', () =>{
 })
 bot.on('message', msg=>{
     if(msg.content == "HELLO"){
-        msg.channel('hello there');
+        msg.client.channel('hello there');
     }    
 })
 
