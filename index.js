@@ -10,7 +10,7 @@ var f_moment= 33
 const PREFIX = '!';
 
 
-bot.on('message', msg=>{
+bot.on('message', message=>{
 
     //sees "hello there" replies "general kenobi, you are a bold one" 
     if(message.content ===  "hello there"){
