@@ -19,7 +19,7 @@ bot.on('message', message=>{
 
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
-   switch (args[0]){
+   switch(args[0]){
    // bruh counter 
    case "bruh": 
        var bruh_send =("this is a bruh moment nº  " +bruh);
@@ -32,7 +32,7 @@ bot.on('message', message=>{
        var F_send =("f to pay respeccts(nº "+bruh+")" );
            message.reply(F_send);
            f_moment = f_moment +1
-           return;
+           break;
 
    }
   if(message.content === "bruh moment"){
