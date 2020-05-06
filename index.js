@@ -4,7 +4,7 @@ var bot = new discord.Client();
 
 bot.on('ready', () =>{
     console.log('this bot is online');
-    bot.user.setActivity("type !h");      
+    bot.user.setActivity("type !h help ");      
     
 });
 
