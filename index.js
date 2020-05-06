@@ -5,13 +5,8 @@ const bot = new discord.Client();
 bot.on('ready', () =>{
     console.log('this bot is online');
     bot.user.setStatus('available')
-    bot.user.setPresence({
-        game: {
-            name: 'with depression',
-            type: "STREAMING",
-            url: "https://www.twitch.tv/monstercat"
-        }
-    });
+    bot.user.setGame("type !h");      
+}
 });
 var bruh = 165 
 var f_moment= 33
