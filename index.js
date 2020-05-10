@@ -46,7 +46,7 @@ bot.on('message', message=>{
             bruh = bruh +1
      }
      if(message.content === "f"){
-            var F_send =("f to pay respeccts(nº" + f_moment + ")" );
+            var F_send =("f to pay respects nº" + f_moment );
            message.reply(F_send);
            f_moment = f_moment +1
      }
