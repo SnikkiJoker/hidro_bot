@@ -39,12 +39,6 @@ bot.on('message', message=>{        //send direct messages said by the user
         message.channel.send("pong")
              break;
 
-    case "start_timer":
-
-        const time  = message.channel.send ("yee");
-        setTimeout(time, 4000);
-        break;
-
 
    }
     //sees "hello there" replies "general kenobi, you are a bold one" 
