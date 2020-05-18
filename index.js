@@ -26,13 +26,17 @@ bot.on('message', message=>{
         message.reply("!h info gives you info about the bot. For now it also as a bruh/bruh moment counter and a  f counter" )
            break;
 
+    case "ping":
+    message.channel.sendmessage("pong")
+    
+    break;
+
    }
     //sees "hello there" replies "general kenobi, you are a bold one" 
     if(message.content ===  "hello there"){
         // client.channels.get("#bot-spam").send("general kenobi, you are a bold one");
         message.reply('general kenobi, you are a bold one');
    }
-
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
     if(message.content === "bruh moment"){
@@ -51,6 +55,7 @@ bot.on('message', message=>{
            f_moment = f_moment +1
      }
    //////////////////////////////////////////////////////////////////
+
 })
 
 bot.login(process.env.token);
