@@ -28,7 +28,7 @@ bot.on('message', message=>{        //send direct messages said by the user
    switch (args[1]) {
     
    case "info":
-    const ayy = client.emojis.find(emoji => emoji.name === "bf_horny_jail");
+    const ayy = Client.emojis.find(emoji => emoji.name === "bf_horny_jail");
     message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best " + "${ayy} ")
             break;
 
