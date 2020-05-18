@@ -27,9 +27,8 @@ bot.on('message', message=>{
            break;
 
     case "ping":
-    message.channel.sendmessage("pong")
-    
-    break;
+        message.channel.sendMessage('pong');
+             break;
 
    }
     //sees "hello there" replies "general kenobi, you are a bold one" 
