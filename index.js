@@ -43,12 +43,13 @@ bot.on('message', message=>{        //send direct messages said by the user
 
         const time  = message.channel.send ("yee");
         setTimeout(time, 4000);
+        break;
 
 
    }
     //sees "hello there" replies "general kenobi, you are a bold one" 
     if(message.content ===  "hello there"){
-        // client.channels.get("#bot-spam").send("general kenobi, you are a bold one");
+
         message.channel.send('general kenobi, you are a bold one');
    }
    // F/ bruh / bruh moment counter
