@@ -35,23 +35,23 @@ bot.on('message', message=>{
     //sees "hello there" replies "general kenobi, you are a bold one" 
     if(message.content ===  "hello there"){
         // client.channels.get("#bot-spam").send("general kenobi, you are a bold one");
-        message.reply('general kenobi, you are a bold one');
+        message.channel.send('general kenobi, you are a bold one');
    }
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
     if(message.content === "bruh moment"){
        var bruh_send =("this is a bruh moment nº  "+bruh );
-           message.reply(bruh_send);
+           mmessage.channel.send(bruh_send);
            bruh = bruh +1
     }
     if(message.content === "bruh"){
         var bruh_send =("this is a bruh moment nº  "+bruh );
-            message.reply(bruh_send);
+        message.channel.send(bruh_send);
             bruh = bruh +1
      }
      if(message.content === "f"){
             var F_send =("f to pay respects nº" + f_moment );
-           message.reply(F_send);
+            message.channel.send(F_send);
            f_moment = f_moment +1
      }
    //////////////////////////////////////////////////////////////////
