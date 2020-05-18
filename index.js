@@ -27,8 +27,8 @@ bot.on('message', message=>{
            break;
 
     case "ping":
-        channel = client.get_channel()
-            await channel.send('hello')
+        channel = client.get_channel();
+            channel.send('hello')
              break;
 
    }
