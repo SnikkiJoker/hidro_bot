@@ -28,8 +28,8 @@ bot.on('message', message=>{        //send direct messages said by the user
    switch (args[1]) {
     
    case "info":
-    const ayy = bot.emojis.get("305818615712579584");
-    message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best " + "${ayy} ")
+    const ayy =("305818615712579584");
+    message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best " + "<:bf_horny_jail:711747597144162334>")
             break;
 
    case "help":
