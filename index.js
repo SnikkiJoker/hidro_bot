@@ -27,7 +27,7 @@ bot.on('message', message=>{
            break;
 
     case "ping":
-        message.channel.sendMessage('pong');
+        message.channel.sendMessage('pong')
              break;
 
    }
