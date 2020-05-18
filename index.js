@@ -8,12 +8,20 @@ bot.on('ready', () =>{
     
 });
 
+
+
+const func = () => {
+    message.channel.send ("yee");
+    setTimeout(func, 4 * 1000);
+  };
+  
+
+
+
 var bruh = 166 
 var f_moment= 37
 const PREFIX = '!h';
-
-
-bot.on('message', message=>{
+bot.on('message', message=>{        //send direct messages said by the user
 
     // let args- responds to !halo uses cases to determine get "alo"
    let args = message.content.substring(PREFIX.length).split(" ");
@@ -57,5 +65,6 @@ bot.on('message', message=>{
    //////////////////////////////////////////////////////////////////
 
 })
+
 
 bot.login(process.env.token);
