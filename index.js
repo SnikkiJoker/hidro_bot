@@ -51,7 +51,7 @@ bot.on('message', message=>{        //send direct messages said by the user
 
    // grovvy extra commands
    if (message.content === "-s/s"){
-       message.delete(1000);
+      // message.delete(1000);
     message.channel.send("shuffle").then(d_msg =>{d_msg.delete(1000);  });
 
     //message.channel.send("-skip") 
