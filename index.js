@@ -51,7 +51,8 @@ bot.on('message', message=>{        //send direct messages said by the user
 
    // grovvy extra commands
    if (message.content==="delete"){
-    message.delete();
+    message.delete(1000);
+
      
      
     //message.channel.send("-skip") 
