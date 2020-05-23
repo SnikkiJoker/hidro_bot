@@ -53,7 +53,7 @@ bot.on('message', message=>{        //send direct messages said by the user
    if (message.content==="delete"){
     message.delete({timeout:1000  });
     message.channel.send("-skip");
-    message.delete.({timeout: 1000})
+    message.delete({timeout: 1000});
   }
 
 
