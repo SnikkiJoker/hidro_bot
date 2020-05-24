@@ -31,7 +31,7 @@ bot.on('message', message=>{        //send direct messages said by the user
 
 
     // let args- responds to !halo uses cases to determine get "alo"
-   let args = message.content.substring(PREFIX.length).split(" ");
+   var args = message.content.substring(PREFIX.length).split(" ");
    switch(args[1]) {
     
    case "info":
