@@ -50,6 +50,19 @@ bot.on('message', message=>{        //send direct messages said by the user
         message.channel.send('general kenobi, you are a bold one');
    }
    
+    //poggers in chat
+    let argument = message.content.substring(message.length).split(" ");
+    switch(argument[0]){
+      case "poggers":
+        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment");
+      break;
+      case "pog":
+        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment");
+      break;
+      case "poggers in chat":
+        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment");
+      break;
+    }
 
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
@@ -69,7 +82,7 @@ bot.on('message', message=>{        //send direct messages said by the user
            f_moment = f_moment +1
      }
    //////////////////////////////////////////////////////////////////
-
+     
 })
 
 
