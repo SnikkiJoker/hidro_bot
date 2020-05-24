@@ -24,10 +24,7 @@ const PREFIX = '!h';
 bot.on('message', message=>{        //send direct messages said by the user
 
   switch (args[1] ){
-    if(message.content ==="joined the cult! Welcome!" ){
-    
-      message.member.addrole("member_role")
-    }
+
   
   }
 
@@ -59,11 +56,6 @@ bot.on('message', message=>{        //send direct messages said by the user
    }
    
 
-   // grovvy extra commands
-  // if (message.content==="delete"){
-    //message.delete({timeout:1000  });
-    //message.channel.send("-skip").then.delete();
-  // }
 
     //poggers in chat
     if (message.content ==="poggers" ){
