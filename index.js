@@ -50,19 +50,6 @@ bot.on('message', message=>{        //send direct messages said by the user
         message.channel.send('general kenobi, you are a bold one');
    }
    
-    //poggers in chat
-    let argument = message.content.substring(message.length).split(" ");
-    switch(argument[0]){
-      case "poggers":
-        message.channel.send("poggers in chat https://tenor.com/view/poggers-pepe-gif-12187665");
-      break;
-      case "pog":
-        message.channel.send("poggers in chat https://tenor.com/view/poggers-pepe-gif-12187665");
-      break;
-      case "poggers in chat":
-        message.channel.send("poggers in chat https://tenor.com/view/poggers-pepe-gif-12187665");
-      break;
-    }
 
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
