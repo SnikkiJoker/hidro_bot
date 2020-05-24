@@ -46,8 +46,6 @@ bot.on('message', message=>{        //send direct messages said by the user
     case "ping":
         message.channel.send("pong")
              break;
-
-
    }
     //sees "hello there" replies "general kenobi, you are a bold one" 
     if(message.content ===  "hello there"){
