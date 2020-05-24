@@ -56,7 +56,7 @@ bot.on('message', message=>{        //send direct messages said by the user
 
 
     //poggers in chat
-    if (message.content ==="poggers" ){
+    if (message.content ==="pog" ){
       message.channel.send("poggers in chat https://tenor.com/view/poggers-pepe-gif-12187665");
 
     }
