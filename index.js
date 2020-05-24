@@ -18,10 +18,20 @@ const func = () => {
 
 
 
-var bruh = 166 
+var bruh = 388
 var f_moment= 37
 const PREFIX = '!h';
 bot.on('message', message=>{        //send direct messages said by the user
+
+  switch (args[1] ){
+    if(message.content ==="joined the cult! Welcome!" ){
+    
+      message.member.addrole("member_role")
+    }
+  
+  }
+
+
 
     // let args- responds to !halo uses cases to determine get "alo"
    let args = message.content.substring(PREFIX.length).split(" ");
@@ -47,15 +57,20 @@ bot.on('message', message=>{        //send direct messages said by the user
 
         message.channel.send('general kenobi, you are a bold one');
    }
-
+   
 
    // grovvy extra commands
-   if (message.content==="delete"){
-    message.delete({timeout:1000  });
-    message.channel.send("-skip").then.delete();
-  }
+  // if (message.content==="delete"){
+    //message.delete({timeout:1000  });
+    //message.channel.send("-skip").then.delete();
+  // }
 
+    //poggers in chat
+    if (message.content ==="poggers" ){
+      message.channel.send("poggers in chat https://tenor.com/view/poggers-pepe-gif-12187665");
 
+    }
+    
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
     if(message.content === "bruh moment"){
