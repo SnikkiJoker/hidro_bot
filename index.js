@@ -51,7 +51,8 @@ bot.on('message', message=>{        //send direct messages said by the user
    }
    
     //poggers in chat
-    switch(args[0]){
+    let argument = message.content.substring(length).split(" ");
+    switch(argument[0]){
       case "poggers":
         message.channel.send("poggers in chat https://tenor.com/view/poggers-pepe-gif-12187665");
       break;
