@@ -23,10 +23,7 @@ var f_moment= 37
 const PREFIX = '!h';
 bot.on('message', message=>{        //send direct messages said by the user
 
-  switch (args[1] ){
 
-  
-  }
 
 
 
