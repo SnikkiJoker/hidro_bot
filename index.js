@@ -64,7 +64,7 @@ bot.on('message', message=>{        //send direct messages said by the user
         message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+"https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
       break;
       case "-skip":
-        message.channel.delete({setTimeout:10000})
+        message.delete({setTimeout:10000})
       break;
     }
 
