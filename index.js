@@ -54,13 +54,13 @@ bot.on('message', message=>{        //send direct messages said by the user
     let argument = message.content.substring(message.length).split(" ");
     switch(argument[0]){
       case "poggers":
-        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment");
+        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+"https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
       break;
       case "pog":
         message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment");
       break;
       case "poggers in chat":
-        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment");
+        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+"https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
       break;
     }
 
