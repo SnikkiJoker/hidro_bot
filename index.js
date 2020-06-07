@@ -18,7 +18,7 @@ const func = () => {
 
 
 
-var bruh = 388
+var bruh = 400
 var f_moment= 37
 const PREFIX = '!h';
 bot.on('message', message=>{        //send direct messages said by the user
