@@ -9,17 +9,6 @@ bot.on('ready', () =>{
 });
 
 
-
-const func = () => {
-    message.channel.send ("yee");
-    setTimeout(func, 4 * 1000);
-  };
-  
-
-
-
-var bruh = 400
-var f_moment= 37
 const PREFIX = '!h';
 bot.on('message', message=>{        //send direct messages said by the user
 
@@ -76,14 +65,14 @@ bot.on('message', message=>{        //send direct messages said by the user
            bruh = bruh +1
     }
     if(message.content === "bruh"){
-        var bruh_send =("this is a bruh moment nº  "+bruh );
+        var bruh_send =("this is a bruh moment" );
         message.channel.send(bruh_send);
-            bruh = bruh +1
+            
      }
      if(message.content === "f"){
-            var F_send =("f to pay respects nº" + f_moment );
+            var F_send =("f to pay respects " );
             message.channel.send(F_send);
-           f_moment = f_moment +1
+         
      }
    //////////////////////////////////////////////////////////////////
      
