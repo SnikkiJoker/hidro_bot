@@ -55,6 +55,9 @@ bot.on('message', message=>{        //send direct messages said by the user
       case "-skip":
         message.delete({setTimeout:10000})
       break;
+      case "!skip":
+        message.delete({setTimeout:10000})
+      break;
     }
 
    // F/ bruh / bruh moment counter
