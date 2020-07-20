@@ -12,6 +12,7 @@ bot.on('ready', () =>{
 const PREFIX = '!h';
 bot.on('message', message=>{        //send direct messages said by the user
 
+  //any message is made into a lowercase message( for easy commands)
 var message_lowercase = message.content.toLowerCase();
 
 
@@ -71,12 +72,6 @@ var message_lowercase = message.content.toLowerCase();
            message.channel.send(bruh_send);
      
     }
-    
-    if(message.content === "bruh"){
-      var bruh_send=("<:bruhsnikki:722459816705917090>");
-
-        message.channel.send(bruh_send);
-     }
 
     if(message_lowercase === "bruh"){
       var bruh_send=("<:bruhsnikki:722459816705917090>");
