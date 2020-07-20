@@ -62,14 +62,15 @@ bot.on('message', message=>{        //send direct messages said by the user
 
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
-
     if(message.content === "bruh moment"){
-       message.channel.send=("this is a bruh moment");
+       var bruh_send =("this is a bruh moment");
+           message.channel.send(bruh_send);
      
     }
-    if(message.content.toLowerCase === "bruh"){
-        message.channel.send(" <:bruhsnikki:722459816705917090>");
+    if(message.content === "bruh"){
+      var bruh_send=("<:bruhsnikki:722459816705917090>");
 
+        message.channel.send(bruh_send);
             
      }
      if(message.content === "f"){
