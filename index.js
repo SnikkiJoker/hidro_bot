@@ -44,13 +44,16 @@ bot.on('message', message=>{        //send direct messages said by the user
     switch(argument[0]){
 
       case "poggers":
-        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+"https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
+
+        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+        "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
       break;
       case "pog":
         message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment");
       break;
       case "poggers in chat":
-        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+"https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
+        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+        "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
       break;
       case "-skip":
         message.delete({setTimeout:10000})
@@ -63,11 +66,11 @@ bot.on('message', message=>{        //send direct messages said by the user
    // F/ bruh / bruh moment counter
    ////////////////////////////////////////////////////////////////
     if(message.content === "bruh moment"){
-       var bruh_send =("this is a bruh moment");
+       var bruh_send =("<:bruhsnikki:722459816705917090>");
            message.channel.send(bruh_send);
      
     }
-    if(message.content === "bruh"){
+    if(message.content.toLowerCase === "bruh"){
       var bruh_send=("<:bruhsnikki:722459816705917090>");
 
         message.channel.send(bruh_send);
