@@ -12,7 +12,7 @@ bot.on('ready', () =>{
 const PREFIX = '!h';
 bot.on('message', message=>{        //send direct messages said by the user
 
-var message_lowercase = message.toLowerCase();
+var message_lowercase = message.content.toLowerCase();
 
 
 
@@ -83,7 +83,7 @@ var message_lowercase = message.toLowerCase();
 
         message.channel.send(bruh_send);     
      }
-     
+
      if(message.content === "f"){
             var F_send =("f to pay respects " );
             message.channel.send(F_send);
