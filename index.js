@@ -68,7 +68,7 @@ bot.on('message', message=>{        //send direct messages said by the user
            bruh = bruh +1
     }
     if(message.content === "bruh"){
-        var bruh_send = ("<:zZaaii_pog:734730208388710500> bruh");
+        var bruh_send = ("<:Zzaaii_pog:734730208388710500> bruh");
 
         message.channel.send(bruh_send);
             
