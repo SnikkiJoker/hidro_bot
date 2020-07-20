@@ -72,12 +72,18 @@ var message_lowercase = message.toLowerCase();
      
     }
     
-    if(message.content.toLowerCase === "bruh"){
+    if(message.content === "bruh"){
       var bruh_send=("<:bruhsnikki:722459816705917090>");
 
         message.channel.send(bruh_send);
-            
      }
+
+    if(message_lowercase === "bruh"){
+      var bruh_send=("<:bruhsnikki:722459816705917090>");
+
+        message.channel.send(bruh_send);     
+     }
+     
      if(message.content === "f"){
             var F_send =("f to pay respects " );
             message.channel.send(F_send);
