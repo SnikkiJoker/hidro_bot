@@ -68,7 +68,7 @@ bot.on('message', message=>{        //send direct messages said by the user
            bruh = bruh +1
     }
     if(message.content === "bruh"){
-        var bruh_send =("this is a bruh moment" );
+        var bruh_send =("<:bruhsnikki:734724362481172520>" );
         message.channel.send(bruh_send);
             
      }
