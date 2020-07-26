@@ -72,9 +72,9 @@ var message_lowercase = message.content.toLowerCase();
            message.channel.send(bruh_send);
      
     }
-    if (message.user. === "701504036217684098"){
+  //  if (message.user. == "701504036217684098"){
         
-        }
+    //    }
      else if(message.content === "<:bruhsnikki:722459816705917090>"){
       var bruh_send =("<:bruhsnikki:722459816705917090>");
           message.channel.send(bruh_send);
