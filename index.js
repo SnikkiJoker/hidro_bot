@@ -42,7 +42,7 @@ var message_lowercase = message.content.toLowerCase();
    }
    
     //poggers in chat and -skip delete message for the bot
-    let argument = message.content.substring(message.length).split(" ");
+    let argument = message.content.toLowerCase.substring(message.length).split(" ");
     switch(argument[0]){
 
       case "poggers":
