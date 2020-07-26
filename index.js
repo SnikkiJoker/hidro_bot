@@ -51,7 +51,7 @@ var message_lowercase = message.content.toLowerCase();
         "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
       break;
       case "pog":
-        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment");
+        message.channel.send("<:slushie_pog:736154481271504897>");
       break;
       case "poggers in chat":
         message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
@@ -71,6 +71,13 @@ var message_lowercase = message.content.toLowerCase();
        var bruh_send =("<:bruhsnikki:722459816705917090>");
            message.channel.send(bruh_send);
      
+    }
+    if (message.user. === "701504036217684098"){
+        
+        }
+     else if(message.content === "<:bruhsnikki:722459816705917090>"){
+      var bruh_send =("<:bruhsnikki:722459816705917090>");
+          message.channel.send(bruh_send);
     }
 
     if(message_lowercase === "bruh"){
