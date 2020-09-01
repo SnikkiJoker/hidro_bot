@@ -46,7 +46,7 @@ var message_lowercase = message.content.toLowerCase();
     switch(message_lowercase){
 
       case "poggers":
-        message.channel.send("poggers");
+        
 
         message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
         "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
