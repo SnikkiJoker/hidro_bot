@@ -25,14 +25,14 @@ var random01 = Math.random();
    //case "info":
     //const ayy =("305818615712579584");
     //message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best "+"<:bf_horny_jail:704797959325483040>");
-  //          break;
-//
- //  case "help":
-   //     message.reply("!h info gives you info about the bot. For now it also as a bruh/bruh moment counter and a  f counter" )
-     //      break;
-//
-   // case "ping":
-  //      message.channel.send("pong")
+    //          break;
+    //
+    //  case "help":
+    //     message.reply("!h info gives you info about the bot. For now it also as a bruh/bruh moment counter and a  f counter" )
+    //      break;
+    //
+    // case "ping":
+    //      message.channel.send("pong")
     //         break;
   // }
     //sees "hello there" replies "general kenobi, you are a bold one" 
@@ -106,7 +106,16 @@ var random01 = Math.random();
          
      }
    //////////////////////////////////////////////////////////////////
-     
+    
+   if (command === "test-nsfw") {
+    console.log(message.channel.nsfw); // false
+  
+    if (message.channel.nsfw === false) {
+      return message.reply(":warning: This channel isn't marked as NSFW.");
+    }
+  }
+
+
 })
 
 
