@@ -107,11 +107,11 @@ var random01 = Math.random();
      }
    //////////////////////////////////////////////////////////////////
     
-   if (command === "test-nsfw") {
+   if (argument === "test-nsfw") {
     console.log(message.channel.nsfw); // false
   
     if (message.channel.nsfw === false) {
-      return message.reply(":warning: This channel isn't marked as NSFW.");
+      return message.send(":warning: This channel isn't marked as NSFW.");
     }
   }
 
