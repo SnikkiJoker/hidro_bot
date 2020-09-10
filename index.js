@@ -16,7 +16,10 @@ bot.on('message', message=>{        //send direct messages said by the user
 var message_lowercase = message.content.toLowerCase();
 
 
-
+var random01 = random.nextInt(2);
+if( message.content==="random_number"){
+  message.channel.send(random01)
+}
 
     // let args- responds to !halo uses cases to determine get "alo"
    let args = message.content.substring(PREFIX.length).split(" ");
