@@ -17,7 +17,7 @@ var message_lowercase = message.content.toLowerCase();
 
 var random01 = Math.random();
 
-
+message.channel.send(random01);
 
     // let args- responds to !halo uses cases to determine get "alo"
    let args = message.content.substring(PREFIX.length).split(" ");
