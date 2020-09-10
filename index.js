@@ -49,15 +49,21 @@ var random01 = Math.random();
 
 
       case "poggers":
+      if (message.channel.nsfw === false) {
         if(random01<0.5){
-
+              //second random pog
                message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment " +
                "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
-        //original pog
-        }else{
+       
+        }else{ //original pog
                message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
               "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
         }
+         
+        }else{ //nsfw pog
+              message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
+              "https://media.discordapp.net/attachments/704687081020063777/751800084521287710/ezgif-7-f1cdf3368972.gif");}
+      
       break;
         case "pog":
           message.channel.send("<:slushie_pog:746057582648754296>");
@@ -104,16 +110,17 @@ var random01 = Math.random();
             var F_send =("f to pay respects " );
             message.channel.send(F_send);
          
-     }
-   //////////////////////////////////////////////////////////////////
-    
-   if (message.content === "test-nsfw") {
-    
-  
+     } 
+      //check if the channel is
+      if (message.content === "test-nsfw") {
     if (message.channel.nsfw === false) {
-       message.channel.send(":warning: This channel isn't marked as NSFW.");
-    }
-  }
+       message.channel.send(":warning: This channel isn't marked as NSFW.");}}
+
+   //////////////////////////////////////////////////////////////////
+  
+
+
+
 
 
 })
