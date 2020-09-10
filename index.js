@@ -107,7 +107,7 @@ var random01 = Math.random();
      }
    //////////////////////////////////////////////////////////////////
     
-   if (argument === "test-nsfw") {
+   if (message.content === "test-nsfw") {
     
   
     if (message.channel.nsfw === false) {
