@@ -60,24 +60,10 @@ var random01 = Math.random();
               "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
         }
          
-        }else{ //pogs for nsfw
-          switch(random01){
-            case(random01<(1/3)):
+      }else{ //pogs for nsfw
               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
               "https://media.discordapp.net/attachments/704687081020063777/751800084521287710/ezgif-7-f1cdf3368972.gif");
-            break;
-            case(random01<(2/3)||random01>(1/3)):
-            //original pog
-            message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
-              "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
-            break;
-            case(random01>(3/3)):
-              //second random pog
-              message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment " +
-              "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif"); 
-            break;
 
-            }
         }
     break;
     
