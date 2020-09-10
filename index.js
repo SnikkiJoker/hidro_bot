@@ -111,7 +111,7 @@ var random01 = Math.random();
     
   
     if (message.channel.nsfw === false) {
-       message.send(":warning: This channel isn't marked as NSFW.");
+       message.channel.send(":warning: This channel isn't marked as NSFW.");
     }
   }
 
