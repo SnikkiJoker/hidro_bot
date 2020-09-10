@@ -17,9 +17,7 @@ var message_lowercase = message.content.toLowerCase();
 
 var random01 = Math.random();
 
-if( message.content==="random_number"){
-  message.channel.send(random01)
-}
+
 
     // let args- responds to !halo uses cases to determine get "alo"
    let args = message.content.substring(PREFIX.length).split(" ");
@@ -48,18 +46,31 @@ if( message.content==="random_number"){
     let argument = message.content.substring(message.length).split(" ");
     switch(message_lowercase){
 
-      case "poggers":
-        
+      
 
-        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
-        "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
+
+      case "poggers":
+        if(random01 <0,5){
+
+               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+               "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
+        //original pog
+        }else{
+               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+              "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
+        }
       break;
         case "pog":
           message.channel.send("<:slushie_pog:746057582648754296>");
       break;
       case "poggers in chat":
-        message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
-        "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
+        if(random01 <0,5){
+               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+               "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
+            }else{
+               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+               "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
+          }
       break;
       case "-skip":
         message.delete({setTimeout:10000})
