@@ -60,22 +60,44 @@ var random01 = Math.random();
               "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
         }
          
-        }else{ //nsfw pog
+        }else{ //pogs for nsfw
+          switch(random01){
+            case(randomo1<(1/3)):
               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
-              "https://media.discordapp.net/attachments/704687081020063777/751800084521287710/ezgif-7-f1cdf3368972.gif");}
-      
+              "https://media.discordapp.net/attachments/704687081020063777/751800084521287710/ezgif-7-f1cdf3368972.gif");
+            break;
+            case(random01<(2/3)||random01>(1/3)):
+            //original pog
+            message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
+              "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
+            break;
+            case(random01>(3/3)):
+              //second random pog
+              message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment " +
+              "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif"); 
+            break;
+
+            }
       break;
         case "pog":
           message.channel.send("<:slushie_pog:746057582648754296>");
       break;
       case "poggers in chat":
-        if(random01<0.5){
-               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
-               "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
-            }else{
-               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
-               "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
+        if (message.channel.nsfw === false) {
+          if(random01<0.5){
+                //second random pog
+                 message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment " +
+                 "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
+         
+          }else{ //original pog
+                 message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
+                "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
           }
+           
+          }else{ //nsfw pog
+                message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
+                "https://media.discordapp.net/attachments/704687081020063777/751800084521287710/ezgif-7-f1cdf3368972.gif");}
+        
       break;
       case "-skip":
         message.delete({setTimeout:10000})
