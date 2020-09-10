@@ -51,11 +51,11 @@ var random01 = Math.random();
       case "poggers":
         if(random01<0.5){
 
-               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+random01+
+               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment " +
                "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
         //original pog
         }else{
-               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
               "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
         }
       break;
@@ -64,10 +64,10 @@ var random01 = Math.random();
       break;
       case "poggers in chat":
         if(random01<0.5){
-               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
                "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
             }else{
-               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
+               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
                "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
           }
       break;
