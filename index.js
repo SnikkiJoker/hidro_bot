@@ -15,8 +15,8 @@ bot.on('message', message=>{        //send direct messages said by the user
   //any message is made into a lowercase message( for easy commands)
 var message_lowercase = message.content.toLowerCase();
 
+double random01 = Math.random();
 
-var random01 = random.nextInt(2);
 if( message.content==="random_number"){
   message.channel.send(random01)
 }
