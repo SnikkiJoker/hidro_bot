@@ -49,7 +49,7 @@ var random01 = Math.random();
 
 
       case "poggers":
-        if(random01 <0,5){
+        if(random01<0,5){
 
                message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
                "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
@@ -63,7 +63,7 @@ var random01 = Math.random();
           message.channel.send("<:slushie_pog:746057582648754296>");
       break;
       case "poggers in chat":
-        if(random01 <0,5){
+        if(random01<0,5){
                message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment"+
                "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
             }else{
