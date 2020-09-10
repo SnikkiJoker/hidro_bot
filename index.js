@@ -48,7 +48,7 @@ var random01 = Math.random();
       
 
 
-      case "poggers":
+    case "poggers":
       if (message.channel.nsfw === false) {
         if(random01<0.5){
               //second random pog
@@ -78,10 +78,12 @@ var random01 = Math.random();
             break;
 
             }
-      break;
-        case "pog":
+        }
+    break;
+    
+    case "pog":
           message.channel.send("<:slushie_pog:746057582648754296>");
-      break;
+    break;
       case "poggers in chat":
         if (message.channel.nsfw === false) {
           if(random01<0.5){
