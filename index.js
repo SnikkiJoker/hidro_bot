@@ -41,7 +41,7 @@ var random01 = Math.random();
         message.channel.send('general kenobi, you are a bold one');
    }
 
-   if(message.content ===  "so is nb and leesh dating?"){
+   if(message.content ===  "so is nb and Slushie dating?"){
 
     message.channel.send("https://cdn.discordapp.com/attachments/753722766074708068/754322279722254396/sluschie.png");
 }
