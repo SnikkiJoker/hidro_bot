@@ -137,7 +137,9 @@ var random01 = Math.random();
   
       if(message.content === "cum"){
         message.channel.send("cum.")
+        if(message.channel.nsfw===true ){
         message.channel.send("https://cdn.discordapp.com/attachments/753722766074708068/756777356948930610/cumin.gif");
+        }
       }
 
 
