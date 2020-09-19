@@ -91,6 +91,7 @@ var random01 = Math.random();
           }else{ //nsfw pog
                 message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
                 "https://media.discordapp.net/attachments/704687081020063777/751800084521287710/ezgif-7-f1cdf3368972.gif");}
+                
         
       break;
       case "-skip":
@@ -136,6 +137,7 @@ var random01 = Math.random();
   
       if(message.content === "cum"){
         message.channel.send("cum.");
+        message.channel.send("https://cdn.discordapp.com/attachments/753722766074708068/756777356948930610/cumin.gif");
       }
 
 
