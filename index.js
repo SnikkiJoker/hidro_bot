@@ -74,7 +74,7 @@ var random01 = Math.random();
     break;
     
     case "pog":
-          message.react("<:slushie_pog:746057582648754296>");
+          message.react.("746057582648754296");
     break;
       case "poggers in chat":
         if (message.channel.nsfw === false) {
