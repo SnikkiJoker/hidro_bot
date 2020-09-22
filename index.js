@@ -74,7 +74,7 @@ var random01 = Math.random();
     break;
     
     case "pog":
-          message.channel.send("<:slushie_pog:746057582648754296>");
+          message.react("<:slushie_pog:746057582648754296>");
     break;
       case "poggers in chat":
         if (message.channel.nsfw === false) {
@@ -100,6 +100,7 @@ var random01 = Math.random();
       case "!skip":
         message.delete({setTimeout:10000})
       break;
+      c
     }
 
    // F/ bruh / bruh moment counter
