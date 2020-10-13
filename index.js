@@ -20,40 +20,35 @@ var random01 = Math.random();
 
 
     // let args- responds to !halo uses cases to determine get "alo"
-   let args = message.content.substring(PREFIX.length).split(" ");
-   switch(args[1]) {
-    
-   case "info":
-    message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best "+"<:bf_horny_jail:704797959325483040>");
-              break;
-    
-      case "help":
-         message.reply("!h info gives you info about the bot. For now it also as a bruh/bruh moment counter and a  f counter" )
-          break;
-    
-     case "ping":
-          message.channel.send("pong")
+   let args = message.content.substring(PREFIX.length).split(" "); // splits message with the space to check everything
+switch(args(0)){ //checks first arg for the prefix of the bot 
+    //args 0
+    case "bruh":
+     message.reply("<:bruhsnikki:722459816705917090>");   
+     break;
+}  
+
+switch(args[1]) {    
+  case "info":
+   message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best "+"<:bf_horny_jail:704797959325483040>");
              break;
-            
-            }
-    //sees "hello there" replies "general kenobi, you are a bold one" 
-    if(message.content ===  "hello there"){
-
-        message.channel.send('general kenobi, you are a bold one');
-   }
-
-   if(message_lowercase ===  "so is nb and slushie dating?"){
-
-    message.channel.send("https://cdn.discordapp.com/attachments/753722766074708068/754322279722254396/sluschie.png");
+     case "help":
+        message.reply("!h info gives you info about the bot. For now it also as a bruh/bruh moment counter and a  f counter" )
+         break;
+    case "ping":
+         message.channel.send("pong")
+            break;
+           
 }
-   
+  
+
+
     //poggers in chat and -skip delete message for the bot
     let argument = message.content.substring(message.length).split(" ");
+  
+  
+  // case for lowercase messages, no parts
     switch(message_lowercase){
-
-      
-
-
     case "poggers":
       if (message.channel.nsfw === false) {
         if(random01<0.5){
@@ -72,7 +67,7 @@ var random01 = Math.random();
 
         }
     break;
-    
+   
     case "pog":
           message.react("746057582648754296");
     break;
@@ -99,8 +94,10 @@ var random01 = Math.random();
       break;
       case "!skip":
         message.delete({setTimeout:10000})
+
       break;
-      c
+      case "f":
+        message.channel.send("press f to pay respects");
     }
 
    // F/ bruh / bruh moment counter
@@ -118,30 +115,14 @@ var random01 = Math.random();
         //  message.channel.send(bruh_send);
     //}
 
-    if(message_lowercase === "bruh"){
-      var bruh_send=("<:bruhsnikki:722459816705917090>");
 
-        message.channel.send(bruh_send);     
-     }
-
-     if(message.content === "f"){
-            var F_send =("f to pay respects " );
-            message.channel.send(F_send);
-         
-     } 
+      
       //check if the channel is
       if (message.content === "test-nsfw") {
     if (message.channel.nsfw === false) {
        message.channel.send(":warning: This channel isn't marked as NSFW.");}}
 
    //////////////////////////////////////////////////////////////////
-  
-      if(message.content === "cum"){
-        message.channel.send("cum.")
-        if(message.channel.nsfw===true ){
-        message.channel.send("https://cdn.discordapp.com/attachments/753722766074708068/756777356948930610/cumin.gif");
-        }
-      }
 
 
 
