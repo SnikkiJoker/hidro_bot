@@ -47,6 +47,7 @@ switch(args[0]){ //checks first arg for the prefix of the bot
 }
 
 }  
+
            
 
   
@@ -132,5 +133,11 @@ switch(args[0]){ //checks first arg for the prefix of the bot
        message.channel.send(":warning: This channel isn't marked as NSFW.");}}
 
    //////////////////////////////////////////////////////////////////
+
+
+
+
+})
+
 
 bot.login(process.env.token);
