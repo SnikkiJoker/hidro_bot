@@ -24,12 +24,12 @@ var random01 = Math.random();
 switch( args [0]){ //checks first arg for the prefix of the bot 
     //args 0
     case "bruh":
-     message.reply("<:bruhsnikki:722459816705917090>");   
+     message.react("722459816705917090");   
      break;
      case "bonk":
-       message.channel.send("https://cdn.discordapp.com/attachments/705415539585056810/765336493815627836/ezgif-5-46e99d406d94.gif");
+       message.channel.send("bonk https://cdn.discordapp.com/attachments/705415539585056810/765336493815627836/ezgif-5-46e99d406d94.gif");
        break;
-      case "h!" :      
+    case "h!" :      
       switch(args[1]) {    
        case "info":
           message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best "+"<:bf_horny_jail:704797959325483040>");
@@ -42,7 +42,7 @@ switch( args [0]){ //checks first arg for the prefix of the bot
              break;
           
        //break for h!   
-       break;
+    break;
            
 }
 
