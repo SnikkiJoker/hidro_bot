@@ -27,7 +27,7 @@ switch(args[0]){ //checks first arg for the prefix of the bot
      message.react("722459816705917090");   
      break;
      case "bonk":
-       message.channel.send("bonk https://cdn.discordapp.com/attachments/705415539585056810/765336493815627836/ezgif-5-46e99d406d94.gif");
+       message.channel.send(" https://cdn.discordapp.com/attachments/705415539585056810/765336493815627836/ezgif-5-46e99d406d94.gif");
        break;
     case "h!" :      
       switch(args[1]) {    
