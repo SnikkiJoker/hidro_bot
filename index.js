@@ -20,8 +20,8 @@ var random01 = Math.random();
 
 
     // let args- responds to !halo uses cases to determine get "alo"
-   let args = message.content.substring(PREFIX.length).split(" "); // splits message with the space to check everything
-switch( args [0]){ //checks first arg for the prefix of the bot 
+   let args =message.content.substring(message.length).split(" "); // splits message with the space to check everything
+switch(args[0]){ //checks first arg for the prefix of the bot 
     //args 0
     case "bruh":
      message.react("722459816705917090");   
