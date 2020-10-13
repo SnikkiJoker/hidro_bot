@@ -47,20 +47,8 @@ switch(args[0]){ //checks first arg for the prefix of the bot
 }
 
 }  
-
-switch(args[1]) {    
-  case "info":
-   message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best "+"<:bf_horny_jail:704797959325483040>");
-             break;
-     case "help":
-        message.reply("!h info gives you info about the bot. For now it also as a bruh/bruh moment counter and a  f counter" )
-         break;
-    case "ping":
-         message.channel.send("pong")
-            break;
-            
            
-}
+
   
 
 
@@ -144,11 +132,5 @@ switch(args[1]) {
        message.channel.send(":warning: This channel isn't marked as NSFW.");}}
 
    //////////////////////////////////////////////////////////////////
-
-
-
-
-})
-
 
 bot.login(process.env.token);
