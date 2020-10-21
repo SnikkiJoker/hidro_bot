@@ -71,9 +71,8 @@ switch(args[0]){ //checks first arg for the prefix of the bot
                 fields: [{
                     name: "",
                     value: "so now  **"+ char1 +"** simps for **"+ char2 +"** see what you created?"
-                  },
+                  }],
                   
-                ],
                 timestamp: new Date(),
                 footer: {
                   
