@@ -42,6 +42,38 @@ switch(args[0]){ //checks first arg for the prefix of the bot
              break;
         case "curseship":
 
+             
+
+  
+    this.vars.char = [
+      "legosi",
+      "louis",
+      "haru",
+      "gouhin",
+      "jack",
+      "juno",
+      "bill",
+      "pina",
+      "aoba",
+      "riz",
+      "ibuki",
+      "agata",
+      "free",
+      "collot",
+      "miguno",
+      "durham",
+      "voss",
+      "gosha",
+      "yafya",
+      "kyuu",
+      "mizuchi",
+      "leano",
+      "melon",
+      "dope",
+      "oguma",
+      "zaguan",
+      "sebun"
+    ];
           this.vars.char = [];
           this.vars.char.push("legosi");
           this.vars.char.push("louis");
