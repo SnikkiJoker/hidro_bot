@@ -73,7 +73,7 @@ switch(args[0]){ //checks first arg for the prefix of the bot
                   },
                   {
 
-                ],
+              
                 timestamp: new Date(),
                 footer: {
                   
