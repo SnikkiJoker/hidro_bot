@@ -29,63 +29,7 @@ switch(args[0]){ //checks first arg for the prefix of the bot
      case "bonk":
        message.channel.send(" https://cdn.discordapp.com/attachments/705415539585056810/765336493815627836/ezgif-5-46e99d406d94.gif");
        break;
-       case "cursedship":
 
-          const characters = [
-          "legosi",
-          "louis",
-          "haru",
-          "gouhin",
-          "jack",
-          "juno",
-          "pina",
-          "aoba",
-          "riz",
-          "ibuki",
-          "bill",
-          "agata",
-          "free",
-          "collot",
-          "miguno",
-          "durham",
-          "voss",
-          "gosha",
-          "yafya",
-          "kyuu",
-          "mizuchi",
-          "leano",
-          "melon",
-          "dope",
-          "oguma",
-          "zaguan",
-          "sebun"];// 27 characters
-
-          var char1= characters[Math.floor(Math.random()*characters.length)]
-          var char2 = characters[Math.floor(Math.random()*characters.length)]
-              while(char1 === char2){
-                var char1= characters[Math.floor(Math.random()*characters.length)]
-              }
-              message.channel.send({embed: {
-                color: 3447003,
-
-                title: "so you decided to do this, suffer",
-
-                description: " ** ** ",
-                fields: [{
-                    name: "** **",
-                    value: "so now  **"+ char1 +"** simps for **"+ char2 +"** see what you created?"
-                  },
-                ],
-                timestamp: new Date(),
-                footer: {
-                  
-                  text: "sick fuck"
-                }
-              }
-            });
-
-        
-        break;
 
 
 
@@ -101,7 +45,63 @@ switch(args[0]){ //checks first arg for the prefix of the bot
         case "ping":
            message.channel.send("pong")
              break;
+             case "cursedship":
 
+              const characters = [
+              "legosi",
+              "louis",
+              "haru",
+              "gouhin",
+              "jack",
+              "juno",
+              "pina",
+              "aoba",
+              "riz",
+              "ibuki",
+              "bill",
+              "agata",
+              "free",
+              "collot",
+              "miguno",
+              "durham",
+              "voss",
+              "gosha",
+              "yafya",
+              "kyuu",
+              "mizuchi",
+              "leano",
+              "melon",
+              "dope",
+              "oguma",
+              "zaguan",
+              "sebun"];// 27 characters
+    
+              var char1= characters[Math.floor(Math.random()*characters.length)]
+              var char2 = characters[Math.floor(Math.random()*characters.length)]
+                  while(char1 === char2){
+                    var char1= characters[Math.floor(Math.random()*characters.length)]
+                  }
+                  message.channel.send({embed: {
+                    color: 3447003,
+    
+                    title: "so you decided to do this, suffer",
+    
+                    description: " ** ** ",
+                    fields: [{
+                        name: "** **",
+                        value: "so now  **"+ char1 +"** simps for **"+ char2 +"** see what you created?"
+                      },
+                    ],
+                    timestamp: new Date(),
+                    footer: {
+                      
+                      text: "sick fuck"
+                    }
+                  }
+                });
+    
+            
+            break;
           
        //break for h!   
     break;
