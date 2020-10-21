@@ -40,6 +40,51 @@ switch(args[0]){ //checks first arg for the prefix of the bot
         case "ping":
            message.channel.send("pong")
              break;
+        case "curseship":
+
+          this.vars.char = [];
+          this.vars.char.push("legosi");
+          this.vars.char.push("louis");
+          this.vars.char.push("haru");
+          this.vars.char.push("gouhin");
+          this.vars.char.push("jack");
+          this.vars.char.push("juno");
+          this.vars.char.push("pina");
+          this.vars.char.push("aoba");
+          this.vars.char.push("riz");
+          this.vars.char.push("ibuki");
+          this.vars.char.push("agata");
+          this.vars.char.push("free");
+          this.vars.char.push("collot");
+          this.vars.char.push("miguno");
+          this.vars.char.push("durham");
+          this.vars.char.push("voss");
+          this.vars.char.push("gosha");
+          this.vars.char.push("yafya");
+          this.vars.char.push("bill");
+          this.vars.char.push("kyuu");
+          this.vars.char.push("mizuchi");
+          this.vars.char.push("leano");
+          this.vars.char.push("melon");
+          this.vars.char.push("dope");
+          this.vars.char.push("oguma");
+          this.vars.char.push("zaguan");
+          this.vars.char.push("sebun");
+          this.vars.char1 = this.random(1, 27);
+          this.vars.char2 = this.random(1, 27);
+
+
+          while (this.vars.char1 == this.vars.char2) {
+              this.vars.char2 = this.random(1, 27);
+            yield;
+          }
+            message.channel.send(this.vars.char1 +" is now shipped with  "+this.vars.char2);         
+
+
+
+
+
+
           
        //break for h!   
     break;
