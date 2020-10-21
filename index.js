@@ -70,9 +70,9 @@ switch(args[0]){ //checks first arg for the prefix of the bot
 
                 title: "so you decided to do this, suffer",
 
-                description: "",
+                description: "  ",
                 fields: [{
-                    name: "",
+                    name: " ",
                     value: "so now  **"+ char1 +"** simps for **"+ char2 +"** see what you created?"
                   },
                 ],
