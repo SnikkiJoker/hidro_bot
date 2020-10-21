@@ -69,6 +69,8 @@ switch(args[0]){ //checks first arg for the prefix of the bot
                 color: 3447003,
 
                 title: "so you decided to do this, suffer",
+
+                description: "",
                 fields: [{
                     name: "Fields",
                     value: "so now  **"+ char1 +"** simps for **"+ char2 +" see what you created?"
