@@ -40,59 +40,7 @@ switch(args[0]){ //checks first arg for the prefix of the bot
         case "ping":
            message.channel.send("pong")
              break;
-        case "curseship":
-
-             
-
-  
-    const characters = [
-      "legosi",
-      "louis",
-      "haru",
-      "gouhin",
-      "jack",
-      "juno",
-      "bill",
-      "pina",
-      "aoba",
-      "riz",
-      "ibuki",
-      "agata",
-      "free",
-      "collot",
-      "miguno",
-      "durham",
-      "voss",
-      "gosha",
-      "yafya",
-      "kyuu",
-      "mizuchi",
-      "leano",
-      "melon",
-      "dope",
-      "oguma",
-      "zaguan",
-      "sebun"  //27 characters
-    ];
-        char1= characters.random(1,27);
-        message.reply(char1);
-        message.reply(characters);
-
-          //this.vars.char1 = this.random(1, 27);
-        //  this.vars.char2 = this.random(1, 27);
-
-
- //         while (this.vars.char1 == this.vars.char2) {
-   //           this.vars.char2 = this.random(1, 27);
-     //       yield;
-       //   }
-         //   message.channel.send(this.vars.char1 +" is now shipped with  "+this.vars.char2);         
-//
-        break;
-
-
-
-
+        
           
        //break for h!   
     break;
