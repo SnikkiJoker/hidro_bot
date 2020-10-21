@@ -88,7 +88,7 @@ switch(args[0]){ //checks first arg for the prefix of the bot
        //   }
          //   message.channel.send(this.vars.char1 +" is now shipped with  "+this.vars.char2);         
 //
-  //        break;
+        break;
 
 
 
