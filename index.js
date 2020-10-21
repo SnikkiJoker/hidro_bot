@@ -67,23 +67,17 @@ switch(args[0]){ //checks first arg for the prefix of the bot
               }
               message.channel.send({embed: {
                 color: 3447003,
-
                 title: "so you decided to do this, suffer",
-
-                description: "This is a test embed to showcase what they look like and what they can do.",
                 fields: [{
-                    name: "Fields",
-                    value: "so now  "+ char1 +" simps for "+ char2 +" see what you created?"
+                    value: "so now  **"+ char1 +"** simps for **"+ char2 +"** see what you created?"
                   },
                   {
-                    name: "note",
-                    value: "no im not putting some wierd combination of names, wierdo."
-                  }
+
                 ],
                 timestamp: new Date(),
                 footer: {
                   
-                  text: "sick fuck"
+                  text: "sick fuck."
                 }
               }
             });
