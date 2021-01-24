@@ -96,7 +96,7 @@ switch(args[0]){ //checks first arg for the prefix of the bot
   // case for lowercase messages, no parts
     switch(message_lowercase){
     case "poggers":
-      if (message.channel.nsfw === false) {
+      if (message.channel.nsfw === true) {
         // if(random01<0.5){
               //second random pog
                message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment " +
