@@ -126,7 +126,7 @@ switch(args[0]){ //checks first arg for the prefix of the bot
          
           }else{ //original pog
                  message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
-                "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
+                 "https://tenor.com/view/poggers-fish-lol-gif-14522997");
           }
            
           }else{ //nsfw pog
