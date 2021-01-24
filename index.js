@@ -30,14 +30,11 @@ switch(args[0]){ //checks first arg for the prefix of the bot
        message.channel.send(" https://cdn.discordapp.com/attachments/705415539585056810/765336493815627836/ezgif-5-46e99d406d94.gif");
        break;
 
-
-
-
-
     case "h!" :      
       switch(args[1]) {    
        case "info":
-          message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best "+"<:bf_horny_jail:704797959325483040>");
+          message.reply("version:1.1.0. Now on a cloud server, to be used 24/7, not much is going on, im trying my best "+
+          "<:bf_horny_jail:704797959325483040>");
              break;
         case "help":
             message.reply("!h info gives you info about the bot. For now it also as a bruh/bruh moment counter and a  f counter" )
@@ -45,82 +42,13 @@ switch(args[0]){ //checks first arg for the prefix of the bot
         case "ping":
            message.channel.send("pong")
              break;
-             case "cursedship":
+        case "cursedship":
 
               const characters = [
-              "legosi",
-              "louis",
-              "haru",
-              "gouhin",
-              "jack",
-              "juno",
-              "pina",
-              "aoba",
-              "riz",
-              "ibuki",
-              "bill",
-              "agata",
-              "free",
-              "collot",
-              "miguno",
-              "durham",
-              "voss",
-              "gosha",
-              "yafya",
-              "kyuu",
-              "mizuchi",
-              "leano",
-              "melon",
-              "dope",
-              "oguma",
-              "zaguan",
-              "Kai",
-              "Dom",
-              "Tao",
-              "Sheila",
-              "Peach",
-              "Dolph (Hippo)",
-              "Moro",
-              "Mina",
-              "Mokichi",
-              "Chief Lion",
-              "Dolph (Lion)",
-              "Miguel",
-              "Hino",
-              "Rokume",
-              "Cosmo",
-              "the African Wild Dog from the cafeteria fight",
-              "the Fox from the cafeteria fight",
-              "Miyagi",
-              "Toki",
-              "Harus Father",
-              "Harus Mother",
-              "Melons Leopard Mother",
-              "Melons Gazelle Father",
-              "Black Lab-chan",
-              "Donson",
-              "Bogue",
-              "Eugen",
-              "Ebisu",
-              "Fina",
-              "Mizuchi",
-              "Michiru",
-              "Mizuchis Boyfriend~701 Housemother",
-              "Sunaga",
-              "Mika",
-              "Porikokos",
-              "Mayor Lion",
-              "Legom",
-              "Adler",
-              "Azuki",
-              "Darth",
-              "Onion-san",
-              "Moth-san",
-              "a Huge Whale",
-              "Therapy",
-              "Happiness",
-              "Everyone",
-              "the Rest of 701",
+              "legosi","louis","haru","gouhin","jack","juno","pina","aoba","riz","ibuki","bill","agata","free","collot","miguno","durham","voss","gosha","yafya","kyuu","mizuchi","leano","melon",
+              "dope","oguma","zaguan","Kai","Dom","Tao","Sheila","Peach","Dolph (Hippo)","Moro","Mina","Mokichi","Chief Lion","Dolph (Lion)","Miguel","Hino","Rokume","Cosmo","the African Wild Dog from the cafeteria fight",
+              "the Fox from the cafeteria fight","Miyagi","Toki","Harus Father","Harus Mother","Melons Leopard Mother","Melons Gazelle Father","Black Lab-chan","Donson","Bogue","Eugen","Ebisu","Fina","Mizuchi","Michiru","Mizuchis Boyfriend~701 Housemother",
+              "Sunaga","Mika","Porikokos","Mayor Lion","Legom","Adler","Azuki","Darth","Onion-san","Moth-san","a Huge Whale","Therapy","Happiness","Everyone","the Rest of 701",
               "sebun"];// 73 characters
               var char1= characters[Math.floor(Math.random()*characters.length)]
               var char2 = characters[Math.floor(Math.random()*characters.length)]
@@ -169,21 +97,21 @@ switch(args[0]){ //checks first arg for the prefix of the bot
     switch(message_lowercase){
     case "poggers":
       if (message.channel.nsfw === false) {
-        if(random01<0.5){
+        // if(random01<0.5){
               //second random pog
                message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment " +
                "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
-       
-        }else{ //original pog
-               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
-              "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
-        }
+      
+            // }else{ //original pog
+            //  message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
+            // "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
+           }
          
-      }else{ //pogs for nsfw
+       //pogs for nsfw
               message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
               "https://media.discordapp.net/attachments/704687081020063777/751800084521287710/ezgif-7-f1cdf3368972.gif");
 
-        }
+        
     break;
    
     case "pog":
