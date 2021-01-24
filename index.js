@@ -96,21 +96,17 @@ switch(args[0]){ //checks first arg for the prefix of the bot
   // case for lowercase messages, no parts
     switch(message_lowercase){
     case "poggers":
-      if (message.channel.nsfw === true) {
-        // if(random01<0.5){
+      
+         if(random01<0.5){
               //second random pog
                message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment " +
                "https://media.discordapp.net/attachments/704687081020063777/715302919662075924/pog.gif");
       
-            // }else{ //original pog
-            //  message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
-            // "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
+             }else{ //original pog
+              message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
+             "https://tenor.com/view/gh-poggers-spin-xqc-fortnite-gif-17316982");
            }
          
-       //pogs for nsfw
-              message.channel.send("<:louispog:713515823532343377> it do be a  poggers  moment "+
-              "https://media.discordapp.net/attachments/704687081020063777/751800084521287710/ezgif-7-f1cdf3368972.gif");
-
         
     break;
    
